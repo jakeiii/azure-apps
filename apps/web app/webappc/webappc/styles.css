@@ -1,0 +1,74 @@
+body {
+	background-color: white;
+}
+
+h1 {
+	padding: 0px;
+	text-align: center;
+	color: black;
+	font-size: 60px;
+	font-weight: 600;
+	font-family: Noto Sans, sans-serif;
+}
+
+h2 {
+	padding: 00px;
+	text-align: center;
+	color: black;
+	font-size: 45px;
+	font-weight: 600;
+	font-family: Noto Sans, sans-serif;
+}
+
+mark {
+	background-color: black;
+	color: white;
+}
+
+div {
+	display: flex;
+	align-items: center;
+	background-color: lightgray
+}
+
+.center {
+	position: absolute;
+    left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%);
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.m {
+    width: 48px;
+    height: 20px;
+    margin: 0;
+    position: absolute;
+    left: 00%;
+    margin-right: -50%;
+    transform: translate(-50%); 
+    
+}
+
+.d {
+	width: 48px;
+	height: 20px;
+	margin: 0;
+	position: absolute;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%)
+}
+
+.y {
+	width: 48px;
+	height: 20px;
+	margin: 0;
+	position: absolute;
+	left: 100%;
+	margin-right: -50%;
+	transform: translate(-50%)
+}
+
